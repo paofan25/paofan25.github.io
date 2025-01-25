@@ -1,0 +1,99 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+[[main]]
+  name = "存档"
+  pageRef = "posts"
+  weight = 10
+
+#[[main]]
+#  name = "Tags"
+#  pageRef = "tags"
+#  weight = 30
+
+[[main]]
+  name = "关于"
+  pageRef = "authors"
+  weight = 10
+
+[[main]]
+  name = "代码"
+  pageRef = "docs"
+  weight = 15
+
+[[main]]
+  name = "小游戏"
+  weight = 20
+
+[[main]]
+  name = "小狐狸"
+  parent = "小游戏"
+  url="https://play.unity.com/en/games/f188a85c-f857-4dbf-bef7-0935a194642d/foxs-tile"
+  weight = 16
+
+[[main]]
+  name = "植物大战僵尸"
+  parent = "小游戏"
+  url="https://play.unity.com/en/games/d27e29b9-2bee-4579-a52f-b59d1003b83f/plant-vs-zombie"
+  weight = 30
+
+[[main]]
+  name = "胶囊的旅行"
+  parent = "小游戏"
+  url="https://play.unity.com/en/games/f6b52457-d637-42cb-8133-d60bf5d0aaba/cubemube"
+  weight = 40
+
+#[[main]]
+#  name = "用户列表"
+#  pageRef = "users"
+#  weight = 90
+
+[[main]]
+  name = "周边"
+  url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
+  weight = 100
+
+#[[main]]
+#  name = "Test"
+#  pageRef = "pagTest"
+#  weight = 1000
+
+#[[main]]
+#  pre = "x-twitter"
+#  url = "https://twitter.com/burufugu"
+#  weight = 200
+
+#[[main]]
+#  identifier = "mastodon"
+#  pre = "mastodon"
+#  weight = 300
+#  url = "https://masto.ai/@blowfish"
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/paofan25"
+  weight = 400
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+ [[footer]]
+   name = "标签"
+   pageRef = "tags"
+   weight = 10
+
+ [[footer]]
+   name = "作者"
+   pageRef = "authors"
+   weight = 20
