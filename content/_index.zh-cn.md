@@ -13,13 +13,13 @@ description: "此页面是使用 Hugo 的 Blowfish 主题搭建的"
   </span>
 </div>
 
-```node
+<!-- ```node
 I am just human.
-```
+``` -->
 
 {{< youtubeLite id="SgXhGb-7QbU" label="Blowfish-tools demo" >}}
 
-| add         | 功能                                                         |
+<!-- | add         | 功能                                                         |
 | ----------- | ------------------------------------------------------------ |
 | image       | **必填** 用于匹配图像名称的正则表达式或 URL。                |
 | aspectRatio | **可选** 画廊的纵横比。`16-9` 、`21-9` 或`32-9` 。默认设置为`16-9` 。 |
@@ -41,4 +41,4 @@ I am just human.
 | `href`    | 图像应链接到的 URL。                                         |
 | `target`  | `href` URL 的目标属性。                                      |
 | `nozoom`  | `nozoom=true` 会禁用图像`缩放`功能。与 `href` 结合使用十分有用。 |
-| `default` | 用于恢复默认 Hugo `figure` 行为的特殊参数。只需提供`default=true`，然后使用正常的 [Hugo 简码语法](https://gohugo.io/content-management/shortcodes/#figure)。 |
+| `default` | 用于恢复默认 Hugo `figure` 行为的特殊参数。只需提供`default=true`，然后使用正常的 [Hugo 简码语法](https://gohugo.io/content-management/shortcodes/#figure)。 | -->
