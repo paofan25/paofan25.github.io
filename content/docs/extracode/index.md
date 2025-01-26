@@ -66,6 +66,7 @@ href="https://www.google.com/" target="_block"
 Go to google
 {{< /button >}}
 ## 轮播图 指定参数
+只能显示现有网页文件夹下的图片
 ```
 carousel
 images="{img/7.jpg,img/3.jpg,img/4.jpg,img/5.jpg,img/6.jpg}
@@ -404,7 +405,7 @@ type="toml" startLine="11" endLine="18"
 {{< /gallery >}}
 
 
-## github 项目
+## github 项目 something wrong
 emmm本地实验的时候貌似失灵了，不知道发布之后会怎么样（没学好JavaScript，看不懂，大概感觉是用了github的api吧）
 源码是这样的
 ```
@@ -427,7 +428,7 @@ emmm本地实验的时候貌似失灵了，不知道发布之后会怎么样（�
 不知道是api过时了还是怎样
 {{< github repo="paofan25/paofan25.github.io" >}}
 
-## gitlab项目
+## gitlab项目 something wrong
 运用你的gitlab projectID
 {{< gitlab projectID="278964" >}}
 
