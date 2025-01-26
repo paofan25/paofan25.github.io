@@ -8,7 +8,7 @@ description: "此页面是使用 Hugo 的 Blowfish 主题搭建的"
         .no-rounded {
             /* border-radius: 0; 取消圆角 */
             
-            padding: 20px;
+            /* padding: 20px; */
             margin: 10px;
         }
 </style>
