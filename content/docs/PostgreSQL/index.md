@@ -14,7 +14,7 @@ SSL connection (protocol: TLSv1.3, cipher: TLS_AES_256_GCM_SHA384, bits: 256, co
 You are now connected to database "mario_database" as user "freecodecamp".
 mario_database=> DROP DATABASE second_database
 ```
-## 列出数据库内容list列出已有数据库
+## 列出已有数据库list
 ```shell
 \l
 mario_database=> \l
@@ -37,12 +37,12 @@ mario_database=>                                    List of databases
 Did not find any relations.
 ```
 ## 添加一个表
-```bash
+```SQL
 CREATE TABLE characters();
 return  CREATE TABLE if success
 ```
 ## 在表中添加行·列
-```bash
+```SQL
 ALTER TABLE characters ADD COLUMN character_id SERIAL;
             (tablename)           (column name) (type)
 ```
@@ -51,12 +51,12 @@ ALTER TABLE characters ADD COLUMN character_id SERIAL;
 psql --username=freecodecamp --dbname=postgres
 ```
 ## 创建数据库·表·列
-```bash
+```SQL
 CREATE DATABASE database_name;
 CREATE TABLE table_name();
 ALTER TABLE table_name ADD COLUMN column_name DATATYPE;
 ```
 ## 移除一行（remove）
-```bash
+```SQL
 ALTER TABLE table_name DROP COLUMN column_name;
 ```
