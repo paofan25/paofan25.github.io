@@ -1,6 +1,6 @@
 ---
 title: "PostgreSQL"
-date: 2025-1-29
+date: 2025-01-29
 tags: ["SQL"]
 showComments : true
 ---
