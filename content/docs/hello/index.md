@@ -1,6 +1,6 @@
 ---
 title: "Rubbish"
-date: 1.29
+date: 2025-1-29
 tags: ["rubbish"]
 showComments : false
 draft: true
