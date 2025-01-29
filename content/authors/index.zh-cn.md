@@ -17,7 +17,7 @@ showComments : true
 
 若有正经事儿需要联系，也可以发邮件给我，地址如上所示。
 
-不想发邮件？您也可以通过Telegram找到我，请点击这里。
+不想发邮件？您也可以通过Telegram找到我，请[点击这里](https://t.me/+Gbp0kvdPycA2ZmU1)。
 
 免责声明
 
@@ -26,7 +26,7 @@ showComments : true
 版权声明
 
 
-本博客所有文章，除特别声明外，均遵循 Creative Commons BY-NC-ND 4.0 许可协议
+本博客所有文章，除特别声明外，均遵循 [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans)许可协议
 
 关于友情链接
 
