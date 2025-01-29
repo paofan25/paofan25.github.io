@@ -1,9 +1,10 @@
 ---
 title: "Rubbish"
 date: 2025-01-29
-tags: ["rubbish"]
-showComments : false
 draft: true
+tags: ["rubbish"]
+summary: "The draft~"
+showComments : false
 ---
 <!-- | add         | 功能                                                         |
 | ----------- | ------------------------------------------------------------ |

@@ -1,6 +1,8 @@
 ---
 title: "PostgreSQL"
 date: 2025-01-29
+draft: false
+summary: "Something about SQL"
 tags: ["SQL"]
 showComments : true
 ---
