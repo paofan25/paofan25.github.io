@@ -1,7 +1,7 @@
 ---
 title: "Rubbish"
 date: 2025-01-29
-draft: true
+draft: false
 tags: ["rubbish"]
 summary: "The draft~"
 showComments : false
