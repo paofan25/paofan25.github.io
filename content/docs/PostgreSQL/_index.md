@@ -1,3 +1,9 @@
+---
+title: "PostgreSQL"
+date: 1.29
+tags: ["SQL"]
+showComments : true
+---
 ## enter a database
 postgres=> \c mario_database
 SSL connection (protocol: TLSv1.3, cipher: TLS_AES_256_GCM_SHA384, bits: 256, compression: off)
