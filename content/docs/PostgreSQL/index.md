@@ -45,6 +45,9 @@ return  CREATE TABLE if success
 ```SQL
 ALTER TABLE characters ADD COLUMN character_id SERIAL;
             (tablename)           (column name) (type)
+ALTER TABLE table_name ADD COLUMN column_name DATATYPE CONSTRAINT;
+                                                        (指定格式)
+                                                        比如：NOT NULL
 ```
 ## 登录数据库
 ```bash
@@ -56,7 +59,41 @@ CREATE DATABASE database_name;
 CREATE TABLE table_name();
 ALTER TABLE table_name ADD COLUMN column_name DATATYPE;
 ```
-## 移除一行（remove）
+## 移除一列（remove）
 ```SQL
 ALTER TABLE table_name DROP COLUMN column_name;
+```
+## 删除一行
+```SQL
+DELETE FROM students
+WHERE id = 2;
+```
+## 删除表
+```SQL
+DROP TABLE table_name;
+```
+## 给表中的量添加值
+```SQL
+INSERT INTO second_table(id, username) VALUES(1, 'Samus');
+
+INSERT INTO characters(name, homeland, favorite_color)
+VALUES('Mario', 'Mushroom Kingdom', 'Red'),
+('Luigi', 'Mushroom Kingdom', 'Green'),
+('Peach', 'Mushroom Kingdom', 'Pink');
+```
+## 修改某值
+```SQL
+UPDATE students
+SET age = 23
+WHERE id = 2;
+```
+## 查看表中的值
+```SQL
+SELECT columns FROM table_name;
+选中所有：*
+```
+## 以id排序
+```SQL
+SELECT columns FROM table_name ORDER BY column_name;
+SELECT * FROM characters ORDER BY character_id;
 ```
