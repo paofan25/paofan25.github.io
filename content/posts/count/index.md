@@ -6,7 +6,7 @@ summary: "我的一些算法"
 tags: ["算法"]
 showComments : true
 ---
-## 对称差计算器，支持两个及以上的数组
+## 对称差计算器，支持两个及以上的数组 
 ```javascript
 // 对称差计算器，支持两个及以上的数组
 function sym(...a) {
