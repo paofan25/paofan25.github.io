@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>存档 on Blowfish</title>
+    <title>存档 on Paofan25~</title>
     <link>//localhost:1313/posts/</link>
-    <description>Recent content in 存档 on Blowfish</description>
+    <description>Recent content in 存档 on Paofan25~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 泡饭25</copyright>
@@ -16,6 +16,16 @@
       
       <guid>//localhost:1313/posts/myfirstpost/</guid>
       <description>This is my first post on my site</description>
+      
+    </item>
+    
+    <item>
+      <title>算法</title>
+      <link>//localhost:1313/posts/okashi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/okashi/</guid>
+      <description>我的一些算法</description>
       
     </item>
     

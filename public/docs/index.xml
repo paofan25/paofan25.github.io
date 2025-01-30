@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>使用文档 on Blowfish</title>
+    <title>使用文档 on Paofan25~</title>
     <link>//localhost:1313/docs/</link>
-    <description>Recent content in 使用文档 on Blowfish</description>
+    <description>Recent content in 使用文档 on Paofan25~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 泡饭25</copyright>
     <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>//localhost:1313/docs/postgresql/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/postgresql/</guid>
+      <description>Something about SQL</description>
+      
+    </item>
+    
+    <item>
+      <title>Rubbish</title>
+      <link>//localhost:1313/docs/miao/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/miao/</guid>
+      <description>The draft~</description>
+      
+    </item>
     
     <item>
       <title>How to Use Markdown</title>

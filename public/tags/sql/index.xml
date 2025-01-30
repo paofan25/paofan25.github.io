@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on Paofan25~</title>
+    <link>//localhost:1313/tags/sql/</link>
+    <description>Recent content in SQL on Paofan25~</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 泡饭25</copyright>
+    <lastBuildDate>Wed, 29 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>//localhost:1313/docs/postgresql/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/postgresql/</guid>
+      <description>Something about SQL</description>
+      
+    </item>
+    
+  </channel>
+</rss>
